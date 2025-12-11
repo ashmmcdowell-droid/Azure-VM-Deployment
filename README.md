@@ -2,23 +2,27 @@ Using a Virtual Machine on Remote Desktop via Azure (beginner friendly)
 This project demonstrates how to deploy a Virtual Machine (VM) on Azure and access it remotely using Remote Desktop Protocol (RDP). The goal is to set up a Windows Server 2022 VM, configure networking, and establish an RDP connection
 Technologies Used
 •	Environments: Microsoft Azure
+
 •	Operating System: Windows Server 2022
+
 •	Services Used: 
 o	Azure Resource Group (vpn-winserv2022)
 o	Azure Virtual Machines
 o	Remote Desktop Protocol (RDP)
+
  Deployment Steps
-Step 1: Create a Resource Group
+ Step 1: Create a Resource Group
 1.	Log in to Azure Portal.
 2.	Go to Resource Groups → Click "Create" → "Resource Group".
 3.	Configure the resource group settings: Image below
 4.	Click "Review + Create" → "Create".
  
-
 Creating a Virtual Machine on Azure
 5.	Log in to Azure Portal.
+
 6.	Go to Virtual Machines → Click "Create" → "Azure Virtual Machine".
-7.	Configure the VM settings:  
+   
+8.	Configure the VM settings:  
 o	Resource Group: (vpn-winserv2022)
 o	VM Name: vm-WinServ2022
 o	Region: Select a data center near your location
